@@ -4,7 +4,7 @@
  *  WAS SUPPOSED TO ADD IMPURITIES AND MAKE IT A LITTLE DEVIATED FROM THE GENERATED VALUES.
  */
 
-import { PrivateKey } from 'snarkyjs';
+import { PrivateKey } from 'o1js';
 import { letterMapping, numberMapping } from './mappings.js';
 
 function getRandomNumber(min: number, max: number): number {
